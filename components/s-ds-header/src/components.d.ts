@@ -10,7 +10,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface MyComponent {
+  interface SDsHeader {
     /**
     * The first name
     */
@@ -29,18 +29,18 @@ export namespace Components {
 declare global {
 
 
-  interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {}
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  interface HTMLSDsHeaderElement extends Components.SDsHeader, HTMLStencilElement {}
+  var HTMLSDsHeaderElement: {
+    prototype: HTMLSDsHeaderElement;
+    new (): HTMLSDsHeaderElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    's-ds-header': HTMLSDsHeaderElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface MyComponent {
+  interface SDsHeader {
     /**
     * The first name
     */
@@ -56,7 +56,7 @@ declare namespace LocalJSX {
   }
 
   interface IntrinsicElements {
-    'my-component': MyComponent;
+    's-ds-header': SDsHeader;
   }
 }
 
@@ -66,7 +66,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'my-component': LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+      's-ds-header': LocalJSX.SDsHeader & JSXBase.HTMLAttributes<HTMLSDsHeaderElement>;
     }
   }
 }
