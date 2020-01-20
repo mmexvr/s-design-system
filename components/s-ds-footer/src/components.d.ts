@@ -11,18 +11,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 export namespace Components {
   interface SDsFooter {
-    /**
-    * The first name
-    */
     'first': string;
-    /**
-    * The last name
-    */
-    'last': string;
-    /**
-    * The middle name
-    */
-    'middle': string;
   }
 }
 
@@ -41,18 +30,7 @@ declare global {
 
 declare namespace LocalJSX {
   interface SDsFooter {
-    /**
-    * The first name
-    */
     'first'?: string;
-    /**
-    * The last name
-    */
-    'last'?: string;
-    /**
-    * The middle name
-    */
-    'middle'?: string;
   }
 
   interface IntrinsicElements {

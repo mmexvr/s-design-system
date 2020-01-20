@@ -1,8 +1,6 @@
 
-export function format(first: string, middle: string, last: string): string {
+export function format(first: string): string {
   return (
-    (first || '') +
-    (middle ? ` ${middle}` : '') +
-    (last ? ` ${last}` : '')
+    (first || '')
   );
 }
