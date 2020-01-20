@@ -1,7 +1,7 @@
 {
   "name": "s-ds-header",
-  "version": "0.0.4",
-  "description": "Stencil Component Starter",
+  "version": "0.0.5",
+  "description": "Stencil Header Component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",

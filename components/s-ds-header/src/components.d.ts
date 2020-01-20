@@ -12,17 +12,9 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 export namespace Components {
   interface SDsHeader {
     /**
-    * The first name
+    * Header Text
     */
-    'first': string;
-    /**
-    * The last name
-    */
-    'last': string;
-    /**
-    * The middle name
-    */
-    'middle': string;
+    'header': string;
   }
 }
 
@@ -42,17 +34,9 @@ declare global {
 declare namespace LocalJSX {
   interface SDsHeader {
     /**
-    * The first name
+    * Header Text
     */
-    'first'?: string;
-    /**
-    * The last name
-    */
-    'last'?: string;
-    /**
-    * The middle name
-    */
-    'middle'?: string;
+    'header'?: string;
   }
 
   interface IntrinsicElements {
