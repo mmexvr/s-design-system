@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/mmexvr/s-design-system/issues"
   },
-  "homepage": "https://github.com/mmexvr/s-design-system#readme"
+  "homepage": "https://github.com/mmexvr/s-design-system#readme",
+  "dependencies": {}
 }
