@@ -1,15 +1,15 @@
 {
-  "name": "s-ds-header",
-  "version": "0.0.5",
-  "description": "Stencil Header Component",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "name": "s-ds-components",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.cjs.js",
+  "module": "dist/custom-elements/index.js",
   "es2015": "dist/esm/index.mjs",
   "es2017": "dist/esm/index.mjs",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/custom-elements/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/s-ds-header/s-ds-header.js",
+  "unpkg": "dist/s-ds-components/s-ds-components.js",
   "files": [
     "dist/",
     "loader/"
@@ -21,11 +21,8 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
   },
-  "devDependencies": {
-    "@stencil/core": "^1.8.4"
-  },
-  "license": "MIT",
   "dependencies": {
-    "s-ds-footer": "0.0.3"
-  }
+    "@stencil/core": "^2.0.1"
+  },
+  "license": "MIT"
 }

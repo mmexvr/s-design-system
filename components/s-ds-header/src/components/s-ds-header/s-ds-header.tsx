@@ -1,5 +1,6 @@
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
+import { s-ds-footer } from 's-ds-footer'
 
 @Component({
   tag: 's-ds-header',

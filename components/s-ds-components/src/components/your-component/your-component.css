@@ -1,0 +1,5 @@
+:host {
+  display: block;
+  --blue: blue;
+  color: Var(--blue);
+}
