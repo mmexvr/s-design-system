@@ -5,5 +5,7 @@ Added two ways of how the component library can work
 - One library with all components
 - A site using these components
 - Readme for all components(not updated)
+- Added readme for stencil `/component` folder
+- Local env setup
 
 ---

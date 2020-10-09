@@ -12,6 +12,7 @@ export namespace Components {
     interface SDsFooter {
     }
     interface SDsHeader {
+        "headerTitle": string;
     }
 }
 declare global {
@@ -46,6 +47,7 @@ declare namespace LocalJSX {
     interface SDsFooter {
     }
     interface SDsHeader {
+        "headerTitle"?: string;
     }
     interface IntrinsicElements {
         "s-ds-cookie": SDsCookie;

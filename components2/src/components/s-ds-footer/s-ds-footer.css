@@ -1,3 +1,5 @@
 :host {
+  padding: 20px;
+  background-color: gray;
   display: block;
 }

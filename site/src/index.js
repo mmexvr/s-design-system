@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 
 // NPM package
 // import {SDsHeader,SDsCookie,SDsFooter } from 's-ds-components'
-import { defineCustomElements , applyPolyfills } from 's-ds-components/loader'
+// import { defineCustomElements , applyPolyfills } from 's-ds-components/loader'
 
 // Working locally
 import {SDsHeader,SDsCookie,SDsFooter ,} from '../../components2/';
@@ -20,9 +20,9 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 
 // All elements
-applyPolyfills().then(() => {
-  defineCustomElements();
-})
+// applyPolyfills().then(() => {
+//   defineCustomElements();
+// })
 
 // Specific component with its own name space
 setTimeout( () => {

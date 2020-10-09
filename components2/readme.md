@@ -13,7 +13,7 @@
 
 - `npm import { component } from 's-ds-components'`
 - `customElements.define('my-header', SDsHeader);` if you wanna define each component
-- or
+ or add all components
 - `applyPolyfills().then(() => { defineCustomElements(); })`
 
 

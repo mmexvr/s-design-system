@@ -1,3 +1,9 @@
 :host {
+  --black: black;
+  --white: white;
+  color: var(--white);
+  background: var(--black);
   display: block;
+  font-size: 20px;
+  padding: 30px;
 }
