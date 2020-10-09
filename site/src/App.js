@@ -6,7 +6,7 @@ function App() {
     <div className="App">
        <my-header></my-header>
        <my-footer></my-footer>
-       <my-cookie cookieName="dsds"> <span>test</span> </my-cookie>
+       <my-cookie cookie-name="cookie name"> <span>test</span> </my-cookie>
     </div>
   );
 }
