@@ -7,7 +7,7 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface SDsCookie {
-        "cookieName": string;
+        "somethingElse": string;
     }
     interface SDsFooter {
     }
@@ -41,7 +41,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface SDsCookie {
-        "cookieName"?: string;
+        "somethingElse"?: string;
     }
     interface SDsFooter {
     }

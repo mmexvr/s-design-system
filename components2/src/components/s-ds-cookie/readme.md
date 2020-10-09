@@ -7,9 +7,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum, risus
 
 ## Properties
 
-| Property     | Attribute     | Description | Type     | Default            |
-| ------------ | ------------- | ----------- | -------- | ------------------ |
-| `cookieName` | `cookie-name` |             | `string` | `'Default cookie'` |
+| Property        | Attribute        | Description | Type     | Default            |
+| --------------- | ---------------- | ----------- | -------- | ------------------ |
+| `somethingElse` | `something-else` |             | `string` | `'Default cookie'` |
 
 
 ----------------------------------------------

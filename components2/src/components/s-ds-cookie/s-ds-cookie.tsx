@@ -6,12 +6,12 @@ import { Component, Host, h, Prop } from '@stencil/core';
   shadow: true,
 })
 export class SDsCookie {
-  @Prop() cookieName = 'Default cookie';
+  @Prop() somethingElse = 'Default cookie';
 
   render() {
     return (
       <Host>
-        {this.cookieName}
+        {this.somethingElse}
         <slot></slot>
       </Host>
     );

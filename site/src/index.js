@@ -9,7 +9,8 @@ import * as serviceWorker from './serviceWorker';
 
 // import { applyPolyfills as headerPolyfill, defineCustomElements as headerCustomElement}  from 's-ds-header/loader';
 // import { defineCustomElements as footerCustomElement}  from 's-ds-footer/loader';
-import {SDsHeader,SDsCookie,SDsFooter } from 's-ds-components'
+// import {SDsHeader,SDsCookie,SDsFooter } from 's-ds-components'
+import {SDsHeader,SDsCookie,SDsFooter } from '../../components2/'
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
