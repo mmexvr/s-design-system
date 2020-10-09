@@ -7,20 +7,24 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// import { applyPolyfills as headerPolyfill, defineCustomElements as headerCustomElement}  from 's-ds-header/loader';
-// import { defineCustomElements as footerCustomElement}  from 's-ds-footer/loader';
+// NPM package
 // import {SDsHeader,SDsCookie,SDsFooter } from 's-ds-components'
-import {SDsHeader,SDsCookie,SDsFooter } from '../../components2/'
+import { defineCustomElements , applyPolyfills } from 's-ds-components/loader'
+
+// Working locally
+import {SDsHeader,SDsCookie,SDsFooter ,} from '../../components2/';
+// import { defineCustomElements } from '../../components2/loader';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// headerPolyfill().then(() => {
-//   headerCustomElement();
-//   footerCustomElement();
-//   // defineCustomElements();
-// })
 
+// All elements
+applyPolyfills().then(() => {
+  defineCustomElements();
+})
+
+// Specific component with its own name space
 setTimeout( () => {
   customElements.define('my-header', SDsHeader);
 },500)
