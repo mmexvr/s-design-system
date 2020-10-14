@@ -6,16 +6,27 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface SDsButton {
+        "text": any;
+    }
     interface SDsCookie {
-        "somethingElse": string;
+        "cookieName": string;
     }
     interface SDsFooter {
     }
     interface SDsHeader {
         "headerTitle": string;
     }
+    interface SDsTheme {
+    }
 }
 declare global {
+    interface HTMLSDsButtonElement extends Components.SDsButton, HTMLStencilElement {
+    }
+    var HTMLSDsButtonElement: {
+        prototype: HTMLSDsButtonElement;
+        new (): HTMLSDsButtonElement;
+    };
     interface HTMLSDsCookieElement extends Components.SDsCookie, HTMLStencilElement {
     }
     var HTMLSDsCookieElement: {
@@ -34,34 +45,51 @@ declare global {
         prototype: HTMLSDsHeaderElement;
         new (): HTMLSDsHeaderElement;
     };
+    interface HTMLSDsThemeElement extends Components.SDsTheme, HTMLStencilElement {
+    }
+    var HTMLSDsThemeElement: {
+        prototype: HTMLSDsThemeElement;
+        new (): HTMLSDsThemeElement;
+    };
     interface HTMLElementTagNameMap {
+        "s-ds-button": HTMLSDsButtonElement;
         "s-ds-cookie": HTMLSDsCookieElement;
         "s-ds-footer": HTMLSDsFooterElement;
         "s-ds-header": HTMLSDsHeaderElement;
+        "s-ds-theme": HTMLSDsThemeElement;
     }
 }
 declare namespace LocalJSX {
+    interface SDsButton {
+        "text"?: any;
+    }
     interface SDsCookie {
-        "somethingElse"?: string;
+        "cookieName"?: string;
     }
     interface SDsFooter {
     }
     interface SDsHeader {
         "headerTitle"?: string;
     }
+    interface SDsTheme {
+    }
     interface IntrinsicElements {
+        "s-ds-button": SDsButton;
         "s-ds-cookie": SDsCookie;
         "s-ds-footer": SDsFooter;
         "s-ds-header": SDsHeader;
+        "s-ds-theme": SDsTheme;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "s-ds-button": LocalJSX.SDsButton & JSXBase.HTMLAttributes<HTMLSDsButtonElement>;
             "s-ds-cookie": LocalJSX.SDsCookie & JSXBase.HTMLAttributes<HTMLSDsCookieElement>;
             "s-ds-footer": LocalJSX.SDsFooter & JSXBase.HTMLAttributes<HTMLSDsFooterElement>;
             "s-ds-header": LocalJSX.SDsHeader & JSXBase.HTMLAttributes<HTMLSDsHeaderElement>;
+            "s-ds-theme": LocalJSX.SDsTheme & JSXBase.HTMLAttributes<HTMLSDsThemeElement>;
         }
     }
 }

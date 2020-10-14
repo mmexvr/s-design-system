@@ -7,9 +7,10 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `header` | `header`  | Header Text | `string` | `undefined` |
+| Property | Attribute | Description | Type     | Default      |
+| -------- | --------- | ----------- | -------- | ------------ |
+| `header` | `header`  | Header Text | `string` | `undefined`  |
+| `text`   | `text`    |             | `string` | `'add text'` |
 
 
 ----------------------------------------------

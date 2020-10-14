@@ -1,6 +1,5 @@
-# s-ds-footer
+# s-ds-theme
 
-Footer component is super cool!
 
 
 <!-- Auto Generated Below -->

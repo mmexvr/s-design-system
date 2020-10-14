@@ -15,6 +15,7 @@ export namespace Components {
     * Header Text
     */
     'header': string;
+    'text': string;
   }
 }
 
@@ -37,6 +38,7 @@ declare namespace LocalJSX {
     * Header Text
     */
     'header'?: string;
+    'text'?: string;
   }
 
   interface IntrinsicElements {

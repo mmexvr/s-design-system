@@ -5,9 +5,12 @@ function App() {
   return (
     <div className="App">
       <my-header></my-header>
-      <main>test</main>
-      <my-cookie something-else="dsadas name"> <span>test</span> </my-cookie>
+      <my-cookie cookie-name="imported cookie message"> </my-cookie>
       <my-footer></my-footer>
+
+      <s-ds-header></s-ds-header>
+      <s-ds-cookie cookie-name="imported cookie message"></s-ds-cookie>
+      <s-ds-footer></s-ds-footer>
     </div>
   );
 }
