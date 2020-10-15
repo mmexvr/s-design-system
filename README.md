@@ -2,11 +2,14 @@
 
 Running on Stencil v2
 
-- Site
+- Site on react
 - 1 Component library
-  - Published on NPM also in its own version
-- 2 Component library with each component being its own stencil project
+  - Each component published on NPM
+  - Each component its own stencil project
+- 2 Component library
+  - Published on NPM
+  - One stencil project with multiple components
 - Assets(fonts, design kits...)
-- changelog
-- Docs
-- example(angular,react vue...)
+- Changelog
+- Docs(MD files)
+- examples(angular,react vue.., using stencil)
