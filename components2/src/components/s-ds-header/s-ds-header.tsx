@@ -11,7 +11,8 @@ export class SDsHeader {
   render() {
     return (
       <Host>
-        <header>Scania {this.headerTitle}</header>
+        <header part='partheader'>first-child shadowdom {this.headerTitle} <p>P inside header</p></header>
+        <header part='partheader'>sencond-child shadowdom{this.headerTitle}</header>
         <slot></slot>
       </Host>
     );

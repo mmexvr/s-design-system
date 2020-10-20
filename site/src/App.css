@@ -2,3 +2,56 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Works */
+s-ds-header::part(partheader) {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* Works */
+s-ds-header::part(partheader):hover{
+  background-color: red;
+  color: white;
+}
+
+s-ds-header::part(partheader):hover:active {
+  background-color: pink;
+  color: black;
+}
+
+/* Doesn't work */
+s-ds-header::part(partheader):first-child {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+}
+
+s-ds-header::part(partheader) p {
+  color: white;
+}
+
+/* Just for show */
+ div header:first-child {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+/* header {
+   background-color: green !important;
+  color: black !important;
+  padding: 20px !important;
+  font-size: 30px !important;
+} */
+/* header {
+  background-color: green;
+ color: black;
+ padding: 20px;
+ font-size: 30px;
+} */

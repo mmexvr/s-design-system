@@ -12,6 +12,13 @@ Header-component is super cool!
 | `headerTitle` | `header-title` |             | `string` | `'Default header text'` |
 
 
+## Shadow Parts
+
+| Part           | Description |
+| -------------- | ----------- |
+| `"partheader"` |             |
+
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

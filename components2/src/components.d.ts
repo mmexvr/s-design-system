@@ -17,6 +17,8 @@ export namespace Components {
     interface SDsHeader {
         "headerTitle": string;
     }
+    interface SDsTesting {
+    }
     interface SDsTheme {
     }
 }
@@ -45,6 +47,12 @@ declare global {
         prototype: HTMLSDsHeaderElement;
         new (): HTMLSDsHeaderElement;
     };
+    interface HTMLSDsTestingElement extends Components.SDsTesting, HTMLStencilElement {
+    }
+    var HTMLSDsTestingElement: {
+        prototype: HTMLSDsTestingElement;
+        new (): HTMLSDsTestingElement;
+    };
     interface HTMLSDsThemeElement extends Components.SDsTheme, HTMLStencilElement {
     }
     var HTMLSDsThemeElement: {
@@ -56,6 +64,7 @@ declare global {
         "s-ds-cookie": HTMLSDsCookieElement;
         "s-ds-footer": HTMLSDsFooterElement;
         "s-ds-header": HTMLSDsHeaderElement;
+        "s-ds-testing": HTMLSDsTestingElement;
         "s-ds-theme": HTMLSDsThemeElement;
     }
 }
@@ -71,6 +80,8 @@ declare namespace LocalJSX {
     interface SDsHeader {
         "headerTitle"?: string;
     }
+    interface SDsTesting {
+    }
     interface SDsTheme {
     }
     interface IntrinsicElements {
@@ -78,6 +89,7 @@ declare namespace LocalJSX {
         "s-ds-cookie": SDsCookie;
         "s-ds-footer": SDsFooter;
         "s-ds-header": SDsHeader;
+        "s-ds-testing": SDsTesting;
         "s-ds-theme": SDsTheme;
     }
 }
@@ -89,6 +101,7 @@ declare module "@stencil/core" {
             "s-ds-cookie": LocalJSX.SDsCookie & JSXBase.HTMLAttributes<HTMLSDsCookieElement>;
             "s-ds-footer": LocalJSX.SDsFooter & JSXBase.HTMLAttributes<HTMLSDsFooterElement>;
             "s-ds-header": LocalJSX.SDsHeader & JSXBase.HTMLAttributes<HTMLSDsHeaderElement>;
+            "s-ds-testing": LocalJSX.SDsTesting & JSXBase.HTMLAttributes<HTMLSDsTestingElement>;
             "s-ds-theme": LocalJSX.SDsTheme & JSXBase.HTMLAttributes<HTMLSDsThemeElement>;
         }
     }

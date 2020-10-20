@@ -1,6 +1,6 @@
 {
-  "name": "s-ds-components",
-  "version": "0.0.6",
+  "name": "@s-ds/s-ds-components",
+  "version": "0.0.7",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",
@@ -24,5 +24,7 @@
   "dependencies": {
     "@stencil/core": "^2.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "author": ""
 }
