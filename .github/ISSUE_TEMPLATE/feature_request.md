@@ -1,6 +1,6 @@
 ---
-name: "Feature request"
-about: Suggest an idea for the SDDS website
+name: "\U0001F680 Feature request"
+about: "\U0001F680 Suggest an idea for the SDDS website"
 title: Feature - Add title
 labels: feature
 assignees: ''
@@ -20,6 +20,9 @@ _A clear and concise description of what the feature is. Ex. I'm always frustrat
 
 **Describe the solution you'd like**  
 _A clear and concise description of what you want to happen._
+
+**Screenshot**
+_If applicable, add screenshots to help explain your ideas._
 
 **Additional context**  
 _Add any other context or screenshots about the feature request here._
