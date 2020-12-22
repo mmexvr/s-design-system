@@ -1,6 +1,6 @@
 ---
-name: ":beetle: Bug report"
-about: ":beetle: Use this option when you've found an bug"
+name: "\U0001F41E  Bug report"
+about: "\U0001F41E  Use this option when you've found an bug"
 title: Bug - Add title
 labels: Bug
 assignees: ''
