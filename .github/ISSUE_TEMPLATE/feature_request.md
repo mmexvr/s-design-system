@@ -2,14 +2,16 @@
 name: "Feature request"
 about: Suggest an idea for the SDDS website
 title: Feature - Add title
-labels: Feature
+labels: feature
 assignees: ''
 
 ---
 
 <!--
 
-Hello! Before you report a issue, please read the [FAQ](https://digitaldesign.scania.com/support/faqs) and/or [Contribution](https://digitaldesign.scania.com/contribution) information and also check if there is an issue already [reported](https://github.com/scania-digital-design-system/sdds-website/issues). 
+Hello! 
+
+Before you report a issue, please read the [FAQ](https://digitaldesign.scania.com/support/faqs) and/or [Contribution](https://digitaldesign.scania.com/contribution) information and also check if there is an issue already [reported](https://github.com/scania-digital-design-system/sdds-website/issues). 
 
 -->
 
