@@ -1,3 +1,12 @@
+---
+name: Pull-Request
+about: Use this option when you've found an bug.
+title: Bug - Add title
+labels: Bug
+assignees: ''
+
+---
+
 
 <!--
 
