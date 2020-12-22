@@ -1,10 +1,3 @@
----
-title: Bug - Add title
-labels: Bug
-
----
-
-
 <!--
 
 Hello! Before you add a PR, please read the [FAQ](https://digitaldesign.scania.com/support/faqs) and/or [Contribution](https://digitaldesign.scania.com/contribution) information and also check if there is an issue already [reported](https://github.com/scania-digital-design-system/sdds-website/pulls).
